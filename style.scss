@@ -339,6 +339,7 @@ footer {
 
         margin-bottom: 60px;
     }
+    
 }
 
 .pricing-cards {
@@ -562,7 +563,7 @@ footer {
 }
 
 .rating::after {
-    content: url(./icons/star.svg);
+    content: url(images/star.svg);
 
     margin-left: 10px;
 }
@@ -616,7 +617,7 @@ footer {
 
 .nav-button-prev {
     background-color: transparent;
-    background-image: url(./icons/arrow-left.svg);
+    background-image: url(images/arrow-left.svg);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -625,7 +626,7 @@ footer {
 
 .nav-button-next {
     background-color: $button-red;
-    background-image: url(./icons/arrow-right.svg);
+    background-image: url(images/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -757,19 +758,19 @@ footer {
 }
 
 .social-icon-facebook {
-    background-image: url(./icons/facebook.svg);
+    background-image: url(images/facebook.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .social-icon-twitter {
-    background-image: url(./icons/twitter.svg);
+    background-image: url(images/twitter.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .social-icon-instagram {
-    background-image: url(./icons/instagram.svg);
+    background-image: url(images/instagram.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -818,20 +819,20 @@ footer {
     
     & ::before {
         margin-right: 10px;
-        content: url("./icons/logo.svg");
+        content: url("images/logo.svg");
     }
 }
 
 .plan-card {
     .pricing-feature::before {
         @include margin-right-12;
-        content: url("./icons/checkmark.svg");
+        content: url("images/checkmark.svg");
     }
 }
 
 .features {
     .feature-item::before {
         @include margin-right-12;
-        content: url("./icons/bigcheckmark.svg");
+        content: url("images/bigcheckmark.svg");
     }
 }
